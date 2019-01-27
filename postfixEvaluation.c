@@ -55,7 +55,7 @@ int valid()
       return (0);
   }
 
-  if(digits-operators!=1)  //checks if difference between digits and operators is 1 or not
+  if(digits-operators!=1)  //checks if difference between number of digits and operators is 1 or not
     return (0);
 
   return (1);
