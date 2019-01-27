@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int count=0,val;
+int count=0,val;  //'count' counts the number of nodes present in the list 
 
 typedef struct node
 {
@@ -92,6 +92,7 @@ node * insertEnd(node *head,int val)
 }
 
 //function to search for a number in the list
+//returns the pointer to the node which contains that number else returns NULL
 
 node *search(node *head,int val)
 {
@@ -111,7 +112,7 @@ node *search(node *head,int val)
     }
 }
 
-//function to insert after a number
+//function to insert after an existing node
 
 node * insertAfter(node *head,node *after,int val)
 {
@@ -132,7 +133,7 @@ node * insertAfter(node *head,node *after,int val)
         return NULL;
 }
 
-//function to insert before a number
+//function to insert before an existing node
 
 node * insertBefore(node *head,node *before,int val)
 {
