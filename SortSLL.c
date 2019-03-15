@@ -77,7 +77,7 @@ void main()
         insert();
     printf("\nUnsorted SLL:\n");
     print();
-    sort();
+    sort(); //calls the sort function
     printf("\nSorted SLL:\n");
     print();
 }
