@@ -19,7 +19,7 @@ void create() //to create a new node
     newNode->next=NULL;
 }
 
-void insert() to create a SLL
+void insert() //to create a SLL
 {
     if(head==NULL)
     {
